@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    background: linear-gradient(to left top, blue, red) fixed;
+    background: #007A78;
     height: 100vh;
     font-family: 'Noto Sans SC', sans-serif;
 }
 
 h1, 
 h4 {
-    color: blanchedalmond;
+    color: #FFC745;
 }
 
 h1 {
@@ -24,6 +24,15 @@ h4{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+button {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px white solid;
+    background:#FFC745;
+    cursor: pointer;
 }
 
 
